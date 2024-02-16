@@ -9,3 +9,7 @@
   box-sizing: border-box;
   font-family: "open sans", sans-serif;
 }
+
+.weather{
+  display: none;
+}
