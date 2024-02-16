@@ -18,7 +18,7 @@
   </head>
   <body class="flex items-center justify-center w-full h-screen bg-gray-900">
     <div
-      class="card max-w-full w-96 bg-gradient-to-t from-indigo-700 to-indigo-500 rounded-2xl p-7"
+      class="card max-w-full w-96 bg-gradient-to-t from-indigo-700 to-indigo-500 rounded-2xl p-7 flex items-center justify-center flex-col"
     >
       <div class="search w-full flex items-center justify-between gap-2">
         <input
@@ -30,6 +30,13 @@
         <button class="px-3 py-2 rounded-full bg-slate-50">
           <i class="fa fas fa-search"></i>
         </button>
+      </div>
+      <div class="weather">
+        <img src="/images/clear.png" class="weather-icon w-28" />
+        <h1 class="tem text-white text-6xl text-center font-semibold py-3">
+          24°C
+        </h1>
+        <h2 class="text-center text-xl font-semibold text-white">New York</h2>
       </div>
     </div>
   </body>
