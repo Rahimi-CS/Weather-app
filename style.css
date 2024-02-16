@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "open sans";
+  src: url(/font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+}
